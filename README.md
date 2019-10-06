@@ -1,5 +1,5 @@
 # flame_fractals
-Flame fractal generator.  This is an implementation of the process described at [Flam3](https://flam3.com).
+This is an implementation of the flame fractal generator process described at [Flam3](https://flam3.com).
 
 This repo contains three files:
 - PlasFrac: The main file, where the fractal image is generated.
