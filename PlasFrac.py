@@ -1,7 +1,3 @@
-#have four initial points 
-#take their average in the x and y dimension 
-#add a random factor 
-#import cv2
 import numpy as np
 import math
 import random
@@ -166,10 +162,7 @@ def initialize():
     n = 10
     
     accumulator = np.zeros((size,size,4))#4 for colors
-    
-#one function, one variation
-#one function, two variations
-#two functions, one variation
+
 def main():
     START = time.time()
     initialize()
