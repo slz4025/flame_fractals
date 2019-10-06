@@ -7,3 +7,5 @@ This repo contains three files:
 - Variations: a small library of different generating functions.
 
 I've used it to create test images like the following:
+
+[blossom-example](blossom.jpg)
