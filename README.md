@@ -8,4 +8,4 @@ This repo contains three files:
 
 I've used it to create test images like the following:
 
-[blossom-example](https://github.com/slz4025/flame_fractals/blob/master/blossom.jpg)
+![blossom-example](https://github.com/slz4025/flame_fractals/blob/master/blossom.jpg)
