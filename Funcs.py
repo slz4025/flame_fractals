@@ -24,11 +24,7 @@ class Func:
                     curr[j][k] = (random.random()-.5)*2
             self.funclist.append(curr)
             
-            color = np.zeros((3))#dim 3
-            #change col basis from r,g,b to m,y,c or another lin ind system?
-            #col = random.random    random
-            #col = math.sqrt(random.random())    lean towards col channel
-            #col = mean + 2*(random.random() - 0.5)*std    linear around middle
+            color = np.zeros((3))
             
             for j in range(3):
                 color[2] = math.sqrt(random.random())#max(0.0,min(1.0,random.gauss(.9, .05)))
