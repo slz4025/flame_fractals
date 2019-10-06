@@ -7,12 +7,6 @@ global varinum, varinumm1
 varinum = Variations.getVarNum()
 
 class Func:
-    #self.funcnum
-    #self.funclist
-    #self.colorlist
-    #self.weightlist
-    #self.problisttemp
-    #self.problist
     def __init__(self, num):
         self.funcnum = num
         self.funclist = []
@@ -25,7 +19,6 @@ class Func:
         for i in range(self.funcnum):
             curr = np.zeros((2,3))#2x3
             
-            #may have to put a factor to prevent it from going out of [0,1]
             for j in range(2):
                 for k in range(3):
                     curr[j][k] = (random.random()-.5)*2
@@ -50,7 +43,7 @@ class Func:
             for j in range(varinum):
                 w = random.random()
                 sumwe += w
-                weights[j] = w#easier later on
+                weights[j] = w
             for j in range(len(weights)):#add to zero
                 weights[j] /= sumwe
             self.weightlist.append(weights)
